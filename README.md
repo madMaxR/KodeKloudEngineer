@@ -31,7 +31,7 @@ For each task, a set of requirements are given. The documentations for the serve
 
 **Level 1** 
 
-✔️ Lab 001 - [Install Docker Package](здесь будет ссылка на .md c решением)
+✔️ Lab 001 - [Install Docker Package](./Tasks_Docker/Task001_Install_Docker_Package.md)
 
 **Level 2**
 
