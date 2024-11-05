@@ -20,7 +20,10 @@ For each task, a set of requirements are given. The documentations for the serve
 <details><summary> [2024-Nov-05] - First steps  </summary>
 
 ### First steps
+
 Сегодня я начал практиковаться в модулях Docker и Kubernetes. Выполнил первую задачу в блоке Docker.
+
+</details>
 
 ## Labs - Per Category 
 
