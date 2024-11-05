@@ -1,6 +1,8 @@
 # KodeKloudEngineer
 private repo for learning DevOps
 
+----------------------------------------------
+
 - [Updates](#updates)
     - [First steps](#first-steps)
 - [Labs - Per Category](#labs---per-category)
