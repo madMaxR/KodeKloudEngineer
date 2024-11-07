@@ -11,7 +11,7 @@ Finished: &nbsp;&nbsp;2024-11-07 21:11:07
 
 ------------------------------
 
-# TASK 3: Delete Docker Package
+# TASK 3: Delete Docker Container
 
 ## Requirements
 
