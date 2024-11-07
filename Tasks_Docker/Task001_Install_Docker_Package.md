@@ -68,17 +68,15 @@ Enable and start the service.
 ```bash
 systemctl enable docker  
 systemctl start  docker
-systemctl status  docker
+systemctl status docker
 ```
 
 Verify.
 
 ```bash
 [root@stapp01 ~]# docker --version 
-Docker version 24.0.2, build cb74dfc
 
 [root@stapp01 ~]# docker-compose --version
-docker-compose version 1.28.6, build 5db8d86f
 ```
 
 
