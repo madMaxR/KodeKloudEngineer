@@ -8,7 +8,6 @@ Finished: &nbsp;&nbsp;2024-11-05 21:35:00
 
 - [Requirements](#requirements)
 - [Steps](#steps)
-- [Resources](#resources)
 
 ------------------------------
 
