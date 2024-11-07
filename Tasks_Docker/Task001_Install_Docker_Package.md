@@ -26,7 +26,7 @@ Last week the Nautilus DevOps team met with the application development team and
 
 ## Steps
 
-*решение*
+**решение**
 
 Login to the App server and switch to root.
 
