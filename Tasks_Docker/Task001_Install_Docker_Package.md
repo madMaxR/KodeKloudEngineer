@@ -25,8 +25,7 @@ Last week the Nautilus DevOps team met with the application development team and
 ------------------------------
 
 ## Steps
-
-* решение *
+Решение:
 
 Login to the App server and switch to root.
 
@@ -39,11 +38,11 @@ Download the docker-compose binary. Make the binary executable.
 ```bash
 curl -L "https://github.com/docker/compose/releases/tag/v2.30.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose  
 ```
-* если всплыла ошибка
+*если всплыла ошибка
 ````bash
 ./docker-compose: line 8: syntax error near unexpected token `newline' ./docker-compose: line 8: `<!DOCTYPE html>'
 ````
-, то нужно выбрать тип системы и архитектуру руками *
+, то нужно выбрать тип системы и архитектуру руками*
 
 ```bash
 chmod +x /usr/local/bin/docker-compose 
