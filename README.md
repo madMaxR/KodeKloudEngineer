@@ -32,6 +32,7 @@ For each task, a set of requirements are given. The documentations for the serve
 **Level 1** 
 
 ✔️ Lab 001 - [Install Docker Package](./Tasks_Docker/Task001_Install_Docker_Package.md)
+✔️ Lab 002 - [Deploy Nginx Container on Application Server](./Tasks_Docker/Task002_Deploy_Nginx_Container_on_Application_Server.md)
 
 **Level 2**
 
