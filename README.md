@@ -33,7 +33,8 @@ For each task, a set of requirements are given. The documentations for the serve
 
 ✔️ Lab 001 - [Install Docker Package](./Tasks_Docker/Task001_Install_Docker_Package.md)                  
 ✔️ Lab 002 - [Deploy Nginx Container on Application Server](./Tasks_Docker/Task002_Deploy_Nginx_Container_on_Application_Server.md)                  
-✔️ Lab 003 - [Delete Docker Container](./Tasks_Docker/Task003_Delete_Docker_Container.md)                  
+✔️ Lab 003 - [Delete Docker Container](./Tasks_Docker/Task003_Delete_Docker_Container.md)             
+✔️ Lab 004 - [Copy File to Docker Container](./Tasks_Docker/Task004_Copy_File_to_Docker_Container.md)             
 
 **Level 2**
 
