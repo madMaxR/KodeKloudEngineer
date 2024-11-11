@@ -29,8 +29,7 @@ To resolve the issue, investigate the following details:
   [tony@stapp01 ~]$ docker ps -a
   CONTAINER ID   IMAGE     COMMAND              CREATED         STATUS                     PORTS     NAMES
   b7e0a6e82aeb   httpd     "httpd-foreground"   3 minutes ago   Exited (0) 3 minutes ago             nautilus
-  ```
-
+   ```
 2) ```bash
   [tony@stapp01 ~]$ docker logs nautilus
   AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.12.0.2. Set the 'ServerName' directive globally to suppress this message
@@ -38,7 +37,7 @@ To resolve the issue, investigate the following details:
   [Mon Nov 11 18:31:51.812692 2024] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.62 (Unix) configured -- resuming normal operations
   [Mon Nov 11 18:31:51.812823 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
   [Mon Nov 11 18:31:51.842953 2024] [mpm_event:notice] [pid 1:tid 1] AH00492: caught SIGWINCH, shutting down gracefully
-  ```
+   ```
 3) ```bash
    [tony@stapp01 ~]$ docker stop nautilus
    nautilus
