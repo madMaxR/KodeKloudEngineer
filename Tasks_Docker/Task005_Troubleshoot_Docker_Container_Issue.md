@@ -42,19 +42,21 @@ To resolve the issue, investigate the following details:
    [tony@stapp01 ~]$ docker stop nautilus
    nautilus
    ```
-4) ```bash
+4) 'To remove the Docker Container, stop it first'
+   ```bash
    [tony@stapp01 ~]$ docker rm nautilus
    nautilus
    ```
-5) ```bash
+6) ```bash
    [tony@stapp01 ~]$ docker ps -a
    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
    ```
-6) ```bash
+7) 
+   ```bash
    [tony@stapp01 ~]$ docker run -d -p 8080:80 --name nautilus -v /var/www/html:/usr/local/apache2/htdocs httpd:latest
    dc44a83af901e76d367ed5d761b70267468a4a77aac111c934df8967a4054192
    ```
-7) ```bash
+8) ```bash
    [tony@stapp01 ~]$ curl http://localhost:8080/
    Welcome to xFusionCorp Industries!
    ```
