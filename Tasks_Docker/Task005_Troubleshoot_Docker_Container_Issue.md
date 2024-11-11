@@ -30,6 +30,7 @@ To resolve the issue, investigate the following details:
   CONTAINER ID   IMAGE     COMMAND              CREATED         STATUS                     PORTS     NAMES
   b7e0a6e82aeb   httpd     "httpd-foreground"   3 minutes ago   Exited (0) 3 minutes ago             nautilus
   ```
+
 2) ```bash
   [tony@stapp01 ~]$ docker logs nautilus
   AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.12.0.2. Set the 'ServerName' directive globally to suppress this message
