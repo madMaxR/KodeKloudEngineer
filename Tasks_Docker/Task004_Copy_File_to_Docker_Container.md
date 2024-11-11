@@ -31,7 +31,8 @@ Ensure the file is not modified during this operation.
 3) ```bash
    docker cp /tmp/nautilus.txt.gpg ubuntu_latest:/usr/src/
    ```
-4) ```bash
+4) **docker exec** - to Access the shell of Docker Container
+   ```bash
    [tony@stapp01 ~]$ docker exec ubuntu_latest ls -ltr /usr/src/
    total 4
    -rw-r--r-- 1 root root 105 Nov 10 17:34 nautilus.txt.gpg
