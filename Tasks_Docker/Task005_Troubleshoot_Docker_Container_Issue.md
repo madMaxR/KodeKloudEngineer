@@ -38,12 +38,12 @@ To resolve the issue, investigate the following details:
    [Mon Nov 11 18:31:51.812823 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
    [Mon Nov 11 18:31:51.842953 2024] [mpm_event:notice] [pid 1:tid 1] AH00492: caught SIGWINCH, shutting down gracefully
    ```
-3) ```bash
+3) _To remove the Docker Container, stop it first_
+   ```bash
    [tony@stapp01 ~]$ docker stop nautilus
    nautilus
    ```
-4) _To remove the Docker Container, stop it first_
-   ```bash
+5) ```bash
    [tony@stapp01 ~]$ docker rm nautilus
    nautilus
    ```
