@@ -51,7 +51,7 @@ To resolve the issue, investigate the following details:
    [tony@stapp01 ~]$ docker ps -a
    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
    ```
-7) docker run [OPTIONS] IMAGE[:TAG] [COMMAND]
+7) **docker run [OPTIONS] IMAGE[:TAG] [COMMAND]**
 
    -d, --detach                      - Run in the background
 
