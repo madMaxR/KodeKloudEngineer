@@ -42,7 +42,7 @@ To resolve the issue, investigate the following details:
    [tony@stapp01 ~]$ docker stop nautilus
    nautilus
    ```
-4) ``To remove the Docker Container, stop it first``
+4) _To remove the Docker Container, stop it first_
    ```bash
    [tony@stapp01 ~]$ docker rm nautilus
    nautilus
