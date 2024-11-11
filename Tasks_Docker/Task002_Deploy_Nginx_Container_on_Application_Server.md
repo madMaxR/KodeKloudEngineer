@@ -24,13 +24,14 @@ On Application Server 1 create a container named nginx_1 using image nginx with 
 ## Steps
 
 1) ssh to stapp01 (172.16.238.10)
-2) ```bash
+2) **docker pull** - To pull the docker Images from Docker Hub Repository
+   ```bash
    docker pull nginx:alpine
    ```
-3) ```bash
+4) ```bash
    docker run -d --name nginx_1 nginx:alpine
    ```
-4) ```bash
+5) ```bash
    docker ps
    ```
 
