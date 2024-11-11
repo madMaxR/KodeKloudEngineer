@@ -51,11 +51,16 @@ To resolve the issue, investigate the following details:
    [tony@stapp01 ~]$ docker ps -a
    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
    ```
-7) 
+7) docker run [OPTIONS] IMAGE[:TAG] [COMMAND]
+
    -d, --detach                      - Run in the background
+
    -p, HOST_PORT:CNTNR_PORT          - Expose a port or a range of ports
+
    --name                            - Assign a name to the container
+
    -v, --volume [HOST_SRC:]CNTR_DEST - Mount a volume between host and the container file system
+
    ```bash
    [tony@stapp01 ~]$ docker run -d -p 8080:80 --name nautilus -v /var/www/html:/usr/local/apache2/htdocs httpd:latest
    dc44a83af901e76d367ed5d761b70267468a4a77aac111c934df8967a4054192
