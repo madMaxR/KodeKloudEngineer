@@ -38,7 +38,7 @@ To resolve the issue, investigate the following details:
    [Mon Nov 11 18:31:51.812823 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
    [Mon Nov 11 18:31:51.842953 2024] [mpm_event:notice] [pid 1:tid 1] AH00492: caught SIGWINCH, shutting down gracefully
    ```
-3) _To remove the Docker Container, stop it first_
+3) ***To remove the Docker Container, stop it first***
    ```bash
    [tony@stapp01 ~]$ docker stop nautilus
    nautilus
@@ -53,13 +53,13 @@ To resolve the issue, investigate the following details:
    ```
 7) **docker run [OPTIONS] IMAGE[:TAG] [COMMAND]**
 
-   -d, --detach                      - Run in the background
+   **-d**, --detach                      - Run in the background
 
-   -p, HOST_PORT:CNTNR_PORT          - Expose a port or a range of ports
+   **-p**, HOST_PORT:CNTNR_PORT          - Expose a port or a range of ports
 
-   --name                            - Assign a name to the container
+   **--name**                            - Assign a name to the container
 
-   -v, --volume [HOST_SRC:]CNTR_DEST - Mount a volume between host and the container file system
+   **-v**, --volume [HOST_SRC:]CNTR_DEST - Mount a volume between host and the container file system
 
    ```bash
    [tony@stapp01 ~]$ docker run -d -p 8080:80 --name nautilus -v /var/www/html:/usr/local/apache2/htdocs httpd:latest
