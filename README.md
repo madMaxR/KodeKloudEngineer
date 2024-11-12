@@ -39,7 +39,11 @@ For each task, a set of requirements are given. The documentations for the serve
 
 **Level 2**
 
-✔️ Lab 001 - [Pull Docker Image](./Tasks_Docker/Task2_001_Pull_Docker_Image.md)
+✔️ Lab 001 - [Pull Docker Image](./Tasks_Docker/Task2_001_Pull_Docker_Image.md)                  
+- [] Lab 002 - [Docker Update Permissions]                  
+- [] Lab 003 - [Create a Docker Image From Container]                  
+- [] Lab 004 - [Docker EXEC Operations]                  
+- [] Lab 005 - [Write a Docker File]                  
 
 ----------------------------------------------
 
