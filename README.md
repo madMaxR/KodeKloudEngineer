@@ -39,6 +39,8 @@ For each task, a set of requirements are given. The documentations for the serve
 
 **Level 2**
 
+✔️ Lab 001 - [Pull Docker Image](./Tasks_Docker/Task001_2_Pull_Docker_Image.md)
+
 ----------------------------------------------
 
 ### Kubernetes
