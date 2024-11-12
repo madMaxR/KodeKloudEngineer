@@ -11,7 +11,7 @@ Finished: &nbsp;&nbsp;2024-11-12 19:53:00
 
 ------------------------------
 
-# TASK 1_2: Pull Docker Image
+# TASK 2_1: Pull Docker Image
 
 ## Requirements
 
