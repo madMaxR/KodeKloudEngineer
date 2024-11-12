@@ -37,21 +37,17 @@ a. Pull `busybox:musl` image on App Server 1 in Stratos DC and re-tag (create ne
    Status: Downloaded newer image for busybox:musl
    docker.io/library/busybox:musl
    ```
-5) ```bash
+4) ```bash
    [tony@stapp01 ~]$ docker images
    REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
    busybox      musl      32006d2bebf5   6 weeks ago   1.4MB
    ```
-6) ```bash
-   [tony@stapp01 ~]$ docker ps -a
-   CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-   ```
-7) **docker tag** - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE                  
+5) **docker tag** - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE                  
    Usage: `docker image tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]`
    ```bash
    [tony@stapp01 ~]$ sudo docker tag busybox:musl busybox:blog
    ```
-9) ```bash
+6) ```bash
    [tony@stapp01 ~]$ sudo docker images
    REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
    busybox      blog      32006d2bebf5   6 weeks ago   1.4MB
