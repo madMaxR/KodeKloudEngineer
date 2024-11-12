@@ -35,7 +35,7 @@ a. Pull `busybox:musl` image on App Server 1 in Stratos DC and re-tag (create ne
    0521bfaffa2c: Pull complete 
    Digest: sha256:b6252cc4d3a3a702284d828b89cf99d902fad4b00b4aebf2299aa15bfeae54bf
    Status: Downloaded newer image for busybox:musl
-   docker.io/library/busybox:mus
+   docker.io/library/busybox:musl
    ```
 5) ```bash
    [tony@stapp01 ~]$ docker images
