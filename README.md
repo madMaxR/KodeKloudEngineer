@@ -1,6 +1,6 @@
 # KodeKloudEngineer
 
-Private repo for learning DevOps
+~~Private~~ repo for learning DevOps
 
 ----------------------------------------------
 
