@@ -84,17 +84,17 @@ c. Make sure Apache service is up and running inside the container. Keep the con
    Syntax OK
    ```
 10) ```bash
-   root@3168794604a1:/etc/apache2# service apache2 restart
-   * Restarting Apache httpd web server apache2             [ OK ]    
-   root@3168794604a1:/etc/apache2# apachectl configtest
-   Syntax OK
-   ```
+    root@3168794604a1:/etc/apache2# service apache2 restart
+    * Restarting Apache httpd web server apache2             [ OK ]    
+    root@3168794604a1:/etc/apache2# apachectl configtest
+    Syntax OK
+    ```
 11) Keep the container in running state at the end:
-   ```bash
-   [banner@stapp03 ~]$ docker ps -a
-   CONTAINER ID   IMAGE          COMMAND       CREATED          STATUS          PORTS     NAMES
-   3168794604a1   ubuntu:18.04   "/bin/bash"   44 minutes ago   Up 44 minutes             kkloud
-   ```
+    ```bash
+    [banner@stapp03 ~]$ docker ps -a
+    CONTAINER ID   IMAGE          COMMAND       CREATED          STATUS          PORTS     NAMES
+    3168794604a1   ubuntu:18.04   "/bin/bash"   44 minutes ago   Up 44 minutes             kkloud
+    ```
 
    # Ref ID:64072035741b204d59fbe9c6
    ------------------------------
