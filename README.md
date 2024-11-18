@@ -41,8 +41,8 @@ For each task, a set of requirements are given. The documentations for the serve
 
 ✔️ Lab 001 - [Pull Docker Image](./Tasks_Docker/Task2_001_Pull_Docker_Image.md)                  
 ✔️ Lab 002 - [Docker Update Permissions](./Tasks_Docker/Task2_002_Docker_Update_Permissions.md)                  
-- [ ] Lab 003 - [Create a Docker Image From Container]                  
-- [ ] Lab 004 - [Docker EXEC Operations]                  
+✔️ Lab 003 - [Create a Docker Image From Container](./Tasks_Docker/Task2_003_Create_a_Docker_Image_From_Container.md)                  
+✔️ Lab 004 - [Docker EXEC Operations](./Tasks_Docker/Task2_004_Docker_EXEC_Operations.md)          
 - [ ] Lab 005 - [Write a Docker File]                  
 
 ----------------------------------------------
