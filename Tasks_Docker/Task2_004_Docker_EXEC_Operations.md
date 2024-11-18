@@ -63,7 +63,7 @@ c. Make sure Apache service is up and running inside the container. Keep the con
    * Restarting Apache httpd web server apache2 
    ```
    
-   Если после команды restart вылезла ошибка:      
+   Если после команды restart вылезло предупреждение:      
    ```bash        
    AH00558: apache2: Could not reliably determine        
    the server's fully qualified domain name,          
@@ -71,7 +71,7 @@ c. Make sure Apache service is up and running inside the container. Keep the con
    globally to suppress this message
    ```
    
-   Эта ошибка говорит о том, что Apache не настроен на использование определенного имени хоста (ServerName),       
+   Это говорит о том, что Apache не настроен на использование определенного имени хоста (ServerName),       
    поэтому он автоматически использует IP-адрес контейнера. Хотя это сообщение является предупреждением и      
    Apache все равно запускается, следует его устранить, настроив параметр ServerName:
   
