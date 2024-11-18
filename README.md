@@ -43,7 +43,8 @@ For each task, a set of requirements are given. The documentations for the serve
 ✔️ Lab 002 - [Docker Update Permissions](./Tasks_Docker/Task2_002_Docker_Update_Permissions.md)                  
 ✔️ Lab 003 - [Create a Docker Image From Container](./Tasks_Docker/Task2_003_Create_a_Docker_Image_From_Container.md)                  
 ✔️ Lab 004 - [Docker EXEC Operations](./Tasks_Docker/Task2_004_Docker_EXEC_Operations.md)          
-- [ ] Lab 005 - [Write a Docker File]                  
+- [ ] Lab 005 - [Write a Docker File](./Tasks_Docker/Task2_005_Write_a_Docker_File.md)   
+                   
 
 ----------------------------------------------
 
