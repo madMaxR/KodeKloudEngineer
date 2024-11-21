@@ -47,11 +47,11 @@ For each task, a set of requirements are given. The documentations for the serve
 
 **Level 3**  
 
-[ ] Lab 001 - [Create a Docker Network]              
-[ ] Lab 002 - [Docker Volumes Mapping]             
-[ ] Lab 003 - [Docker Ports Mapping]                
-[ ] Lab 004 - [Save, Load and Transfer Docker Image]   
-[ ] Lab 005 - [Write a Docker Compose File]
+- [ ] Lab 001 - [Create a Docker Network]              
+- [ ] Lab 002 - [Docker Volumes Mapping]             
+- [ ] Lab 003 - [Docker Ports Mapping]                
+- [ ] Lab 004 - [Save, Load and Transfer Docker Image]   
+- [ ] Lab 005 - [Write a Docker Compose File]
 
 ----------------------------------------------
 
