@@ -29,13 +29,13 @@ For each task, a set of requirements are given. The documentations for the serve
 
 ### End Level 2 Docker
 
-Повторил некоторые команды `docker`, вспомнил `getent` и `curl`.
-
-`+` curl   
+Повторил некоторые команды `docker`, вспомнил `getent`, `curl`, `sed`.
+ 
 `+` docker run   
 `+` docker tag   
 `+` docker exec   
-`+` getent   
+`+` getent
+`+` curl  
      
 `+-` sed   
 
