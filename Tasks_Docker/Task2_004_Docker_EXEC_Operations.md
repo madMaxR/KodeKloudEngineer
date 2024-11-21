@@ -51,14 +51,22 @@ c. Make sure Apache service is up and running inside the container. Keep the con
    apache2.conf    conf-enabled  magic           mods-enabled  sites-available
    conf-available  envvars       mods-available  ports.conf    sites-enabled
    ```
-6) ```bash
+6) **sed** - утилита для обработки текстов и потоков. Она позволяет находить, заменять, удалять или изменять текст в файлах.
+
+   **-i**,  - опция указывает на редактирование файла *"на месте"*. Это означает, что изменения будут применены непосредственно в оригинальном файле, а не выведены в стандартный вывод или новый файл.
+
+   **s/**,  - команда поиска и замены.
+
+   **/g**,  - означает, что замена будет выполнена для всех вхождений строки `Listen 5003` в каждой строке файла.
+
+   ```bash
    root@3168794604a1:/etc/apache2# sed -i 's/Listen 80/Listen 5003/g' ports.conf
    ```
-7) Ensure that the VirtualHost configuration in /etc/apache2/sites-available/000-default.conf also references port 5003:
+8) Ensure that the VirtualHost configuration in /etc/apache2/sites-available/000-default.conf also references port 5003:
    ```bash
    sed -i 's/:80/:5003/g' sites-available/000-default.conf
    ```
-8) ```bash
+9) ```bash
    service apache2 restart
    * Restarting Apache httpd web server apache2 
    ```
@@ -78,18 +86,18 @@ c. Make sure Apache service is up and running inside the container. Keep the con
    ```bash
    echo "ServerName localhost" >> /etc/apache2/apache2.conf
    ```
-9) Проверка синтаксиса конфигурации:
+10) Проверка синтаксиса конфигурации:
    ```bash
    root@3168794604a1:/etc/apache2# apachectl configtest
    Syntax OK
    ```
-10) ```bash
+11) ```bash
     root@3168794604a1:/etc/apache2# service apache2 restart
     * Restarting Apache httpd web server apache2             [ OK ]    
     root@3168794604a1:/etc/apache2# apachectl configtest
     Syntax OK
     ```
-11) Keep the container in running state at the end:
+12) Keep the container in running state at the end:
     ```bash
     [banner@stapp03 ~]$ docker ps -a
     CONTAINER ID   IMAGE          COMMAND       CREATED          STATUS          PORTS     NAMES
