@@ -24,7 +24,7 @@ This user is already created on the server. Accomplish this task as per details 
 ## Steps
 
 1) ssh to stapp01 (172.16.238.10)
-2) Команда sudo getent используется для доступа к различным базам данных, которые управляются библиотекой NSS (Name Service Switch).    
+2) Команда `sudo getent` используется для доступа к различным базам данных, которые управляются библиотекой NSS (Name Service Switch).    
    Она позволяет просматривать информацию из системных и сетевых баз данных, таких как пользователей, группы, хосты и другие, без необходимости напрямую читать файлы конфигурации.
    ```bash
    [tony@stapp01 ~]$ sudo getent group docker
