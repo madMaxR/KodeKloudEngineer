@@ -34,7 +34,7 @@ For each task, a set of requirements are given. The documentations for the serve
 `+` docker run   
 `+` docker tag   
 `+` docker exec   
-`+` getent
+`+` getent   
 `+` curl  
      
 `+-` sed   
