@@ -85,7 +85,7 @@ b. Install `apache2` and configure it to work on `8082` port. (do not update any
    CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS         PORTS                    NAMES
    2991fdab5c65   apache-img   "apachectl -D FOREGR…"   16 seconds ago   Up 7 seconds   0.0.0.0:8082->8082/tcp   loving_pasteur
    ```
-9. 
+9. Run the curl through port 8082.
    ```bash
    [root@stapp03 ~]# curl -I http://localhost:8082
    HTTP/1.1 200 OK
