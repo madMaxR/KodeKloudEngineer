@@ -36,10 +36,10 @@ b. Install `apache2` and configure it to work on `8082` port. (do not update any
    ```bash
    [banner@stapp03 ~]$ sudo su -
    ```
-4. ```bash
+3. ```bash
    [root@stapp03 ~]# touch /opt/docker/Dockerfile
    ```
-5. ```bash
+4. ```bash
    [root@stapp03 ~]# vi /opt/docker/Dockerfile
    ```
    
@@ -51,7 +51,7 @@ b. Install `apache2` and configure it to work on `8082` port. (do not update any
    EXPOSE 8082
    CMD ["apachectl", "-D", "FOREGROUND"]
    ```
-6. ```bash
+5. ```bash
    [root@stapp03 ~]# docker pull ubuntu
    Using default tag: latest
    latest: Pulling from library/ubuntu
@@ -60,7 +60,7 @@ b. Install `apache2` and configure it to work on `8082` port. (do not update any
    Status: Downloaded newer image for ubuntu:latest
    docker.io/library/ubuntu:latest
    ```
-7. ```bash
+6. ```bash
    [root@stapp03 ~]# docker build -t apache-img /opt/docker/
    [+] Building 32.7s (8/8) FINISHED                                                                           docker:default
     => [internal] load build definition from Dockerfile                                                                  0.0s
@@ -77,7 +77,7 @@ b. Install `apache2` and configure it to work on `8082` port. (do not update any
     => => writing image sha256:502d0a20b20d48471e2bb8c569a3a33b6ed9e8d03ef187343bd16ab52bc95ccf                          0.0s 
     => => naming to docker.io/library/apache-img
    ```
-8. Run the container from the image and check running containers
+7. Run the container from the image and check running containers
    ```bash
    [root@stapp03 ~]# docker run -d -p 8082:8082 apache-img
    2991fdab5c6583234c330e4c13b7f9c4b2f9af7ecbe71b2de951c11938d718ab
@@ -85,7 +85,8 @@ b. Install `apache2` and configure it to work on `8082` port. (do not update any
    CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS         PORTS                    NAMES
    2991fdab5c65   apache-img   "apachectl -D FOREGR…"   16 seconds ago   Up 7 seconds   0.0.0.0:8082->8082/tcp   loving_pasteur
    ```
-9. Run the curl through port 8082.
+8. Run the curl through port 8082.
+   Команда curl -I используется для выполнения HTTP-запроса с методом HEAD и получения только заголовков ответа от сервера.
    ```bash
    [root@stapp03 ~]# curl -I http://localhost:8082
    HTTP/1.1 200 OK
