@@ -43,8 +43,15 @@ For each task, a set of requirements are given. The documentations for the serve
 ✔️ Lab 002 - [Docker Update Permissions](./Tasks_Docker/Task2_002_Docker_Update_Permissions.md)                  
 ✔️ Lab 003 - [Create a Docker Image From Container](./Tasks_Docker/Task2_003_Create_a_Docker_Image_From_Container.md)                  
 ✔️ Lab 004 - [Docker EXEC Operations](./Tasks_Docker/Task2_004_Docker_EXEC_Operations.md)          
-- [ ] Lab 005 - [Write a Docker File](./Tasks_Docker/Task2_005_Write_a_Docker_File.md)   
-                   
+✔️ Lab 005 - [Write a Docker File](./Tasks_Docker/Task2_005_Write_a_Docker_File.md)   
+
+**Level 3**  
+
+[ ] Lab 001 - [Create a Docker Network]              
+[ ] Lab 002 - [Docker Volumes Mapping]             
+[ ] Lab 003 - [Docker Ports Mapping]                
+[ ] Lab 004 - [Save, Load and Transfer Docker Image]   
+[ ] Lab 005 - [Write a Docker Compose File]
 
 ----------------------------------------------
 
