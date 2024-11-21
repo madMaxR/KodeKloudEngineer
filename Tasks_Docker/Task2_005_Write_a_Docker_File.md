@@ -26,10 +26,16 @@ b. Install `apache2` and configure it to work on `8082` port. (do not update any
 
 ## Steps
 1. ssh banner@172.16.238.12 (stapp03)
-2. ```bash
+2. | Команда     | Привилегии `sudo`? | Требуется пароль? | Переменные окружения обновляются? |
+   | ----------- | ------------------ | ----------------- | --------------------------------- |
+   | `sudo su`   | Да                 | Нет	             | Нет                               |
+   | `sudo su -` | Да                 | Нет               | Да                                |
+   | `su`	     | Нет	              | Да (пользователя) | Нет                               |
+   | `su -`	     | Нет	              | Да (пользователя) | Да                                |
+   ```bash
    [banner@stapp03 ~]$ sudo su -
    ```
-3. ```bash
+4. ```bash
    [root@stapp03 ~]# touch /opt/docker/Dockerfile
    ```
 5. ```bash
