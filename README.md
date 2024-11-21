@@ -25,6 +25,22 @@ For each task, a set of requirements are given. The documentations for the serve
 
 </details>
 
+<details><summary> [2024-Nov-21] - End Level 2 Docker  </summary>
+
+### End Level 2 Docker
+
+End Level 2 Docker.
+
++ curl
++ docker run
++ docker tag
++ docker exec
++ getent
+  
++- sed
+
+</details>
+
 ## Labs - Per Category 
 
 ### Docker 
