@@ -57,7 +57,7 @@ c. Make sure Apache service is up and running inside the container. Keep the con
 
    **s/**,  - команда поиска и замены.
 
-   **/g**,  - означает, что замена будет выполнена для всех вхождений строки `Listen 5003` в каждой строке файла.
+   **/g**,  - означает, что замена будет выполнена для всех вхождений строки `Listen 80` в каждой строке файла.
 
    ```bash
    root@3168794604a1:/etc/apache2# sed -i 's/Listen 80/Listen 5003/g' ports.conf
