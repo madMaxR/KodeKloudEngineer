@@ -87,10 +87,10 @@ c. Make sure Apache service is up and running inside the container. Keep the con
    echo "ServerName localhost" >> /etc/apache2/apache2.conf
    ```
 10) Проверка синтаксиса конфигурации:
-   ```bash
-   root@3168794604a1:/etc/apache2# apachectl configtest
-   Syntax OK
-   ```
+    ```bash
+    root@3168794604a1:/etc/apache2# apachectl configtest
+    Syntax OK
+    ```
 11) ```bash
     root@3168794604a1:/etc/apache2# service apache2 restart
     * Restarting Apache httpd web server apache2             [ OK ]    
