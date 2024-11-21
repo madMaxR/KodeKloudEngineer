@@ -31,13 +31,13 @@ For each task, a set of requirements are given. The documentations for the serve
 
 End Level 2 Docker.
 
-+ curl
-+ docker run
-+ docker tag
-+ docker exec
-+ getent
+`+` curl
+`+` docker run
+`+` docker tag
+`+` docker exec
+`+` getent
   
-+- sed
+`+-` sed
 
 </details>
 
