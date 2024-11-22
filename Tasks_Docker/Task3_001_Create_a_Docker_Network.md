@@ -27,21 +27,28 @@ c. Set it to use subnet 192.168.0.0/24 and iprange 192.168.0.0/24.
 
 ## Steps
 1. ssh stapp02
-2. [steve@stapp02 ~]$ docker network ls
-NETWORK ID     NAME      DRIVER    SCOPE
-81a26d0543e8   bridge    bridge    local
-9f8b69977d8b   host      host      local
-f6e7f6ec79b4   none      null      local
-[steve@stapp02 ~]$ docker network create ecommerce --driver macvlan --subnet 192.168.0.0/24 --ip-range 192.168.0.0/24
-e8a5a356dc8d2db541f53bfe2454bbd84ea7943c51c407e78009660c61711ffa
-[steve@stapp02 ~]$ docker network ls
-NETWORK ID     NAME        DRIVER    SCOPE
-81a26d0543e8   bridge      bridge    local
-e8a5a356dc8d   ecommerce   macvlan   local
-9f8b69977d8b   host        host      local
-f6e7f6ec79b4   none        null      local
-[steve@stapp02 ~]$ docker network inspect ecommerce | head -15
-[
+2. ```bash
+   [steve@stapp02 ~]$ docker network ls
+   NETWORK ID     NAME      DRIVER    SCOPE
+   81a26d0543e8   bridge    bridge    local
+   9f8b69977d8b   host      host      local
+   f6e7f6ec79b4   none      null      local
+   ```
+3. ```bash
+   [steve@stapp02 ~]$ docker network create ecommerce --driver macvlan --subnet 192.168.0.0/24 --ip-range 192.168.0.0/24
+   e8a5a356dc8d2db541f53bfe2454bbd84ea7943c51c407e78009660c61711ffa
+   ```
+4. ```bash
+   [steve@stapp02 ~]$ docker network ls
+   NETWORK ID     NAME        DRIVER    SCOPE
+   81a26d0543e8   bridge      bridge    local
+   e8a5a356dc8d   ecommerce   macvlan   local
+   9f8b69977d8b   host        host      local
+   f6e7f6ec79b4   none        null      local
+   ```
+5. ```bash
+   [steve@stapp02 ~]$ docker network inspect ecommerce | head -15
+   [
     {
         "Name": "ecommerce",
         "Id": "e8a5a356dc8d2db541f53bfe2454bbd84ea7943c51c407e78009660c61711ffa",
@@ -56,5 +63,6 @@ f6e7f6ec79b4   none        null      local
                 {
                     "Subnet": "192.168.0.0/24",
                     "IPRange": "192.168.0.0/24"
+   ```
 ------------------------------
 
