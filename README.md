@@ -75,4 +75,19 @@ For each task, a set of requirements are given. The documentations for the serve
 
 **Level 1** 
 
+- [ ] Lab 001 - Deploy Pods in Kubernetes Cluster
+- [ ] Lab 002 - Deploy Applications with Kubernetes Deployments
+- [ ] Lab 003 - Setup Kubernetes Namespaces and PODs
+- [ ] Lab 004 - Set Resource Limits in Kubernetes Pods
+- [ ] Lab 005 - Execute Rolling Updates in Kubernetes
+- [ ] Lab 006 - Revert Deployment to Previous Version in Kubernetes
+- [ ] Lab 007 - Deploy Replica Set in Kubernetes Cluster
+- [ ] Lab 008 - Schedule Cronjobs in Kubernetes
+- [ ] Lab 009 - Create Countdown Job in Kubernetes
+- [ ] Lab 010 - Set Up Time Check Pod in Kubernetes
+- [ ] Lab 011 - Resolve Pod Deployment Issue
+- [ ] Lab 012 - Update Deployment and Service in Kubernetes
+- [ ] Lab 013 - Deploy Highly Available Pods with Replication Controller
+- [ ] Lab 014 - Resolve Volume Mounts Issue in Kubernetes
+      
 **Level 2**
