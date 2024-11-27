@@ -34,7 +34,7 @@ c. Make sure Apache service is up and running inside the container. Keep the con
    3168794604a1   ubuntu:18.04   "/bin/bash"   3 minutes ago   Up 3 minutes             kkloud
    ```
    
-   `docker container exec` - Execute a command in a running container          
+   **`docker container exec`** - Execute a command in a running container          
    `-i` (interactive) - опция указывает Docker держать стандартный ввод (stdin) открытым, для ввода команд.           
    `-t` (tty) - эта опция подключает интерактивную оболочку с терминалом.               
    `/bin/bash` - запуск Bash-оболочки                
