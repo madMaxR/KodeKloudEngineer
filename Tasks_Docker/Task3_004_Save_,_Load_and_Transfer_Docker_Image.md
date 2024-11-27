@@ -45,32 +45,32 @@ c. Load that image archive on `App Server 3` with same name and tag which was us
    ```bash
    [tony@stapp01 ~]$ docker save -o /tmp/blog.tar blog:datacenter
    ```
-5. ```bash
+4. ```bash
    [tony@stapp01 ~]$ ls -la /tmp/ | grep tar
    -rw------- 1 tony tony 123457024 Nov 27 16:35 blog.tar
    ```
-6. ```bash
+5. ```bash
    [tony@stapp01 ~]$ sudo scp /tmp/blog.tar banner@stapp03:/tmp
    banner@stapp03's password: 
    blog.tar                       100%  118MB 141.5MB/s   00:00
    ```
-7. ssh stapp03
-8. ```bash
+6. ssh stapp03
+7. ```bash
    [banner@stapp03 ~]$ ls -la /tmp/ | grep tar
    -rw------- 1 banner banner 123457024 Nov 27 16:38 blog.tar
    ```
-9. ```bash
+8. ```bash
    [banner@stapp03 ~]$ docker load -i /tmp/blog.tar 
    27123a71e85e: Loading layer [==================================================>]  80.63MB/80.63MB
    778f8f524562: Loading layer [==================================================>]  42.81MB/42.81MB
    Loaded image: blog:datacenter
    ```
    
-10. ```bash
-    [banner@stapp03 ~]$ docker images
-    REPOSITORY   TAG          IMAGE ID       CREATED          SIZE
-    blog         datacenter   21c224f4062f   10 minutes ago   121MB
-    ```
+9. ```bash
+   [banner@stapp03 ~]$ docker images
+   REPOSITORY   TAG          IMAGE ID       CREATED          SIZE
+   blog         datacenter   21c224f4062f   10 minutes ago   121MB
+   ```
 
 ------------------------------
 
