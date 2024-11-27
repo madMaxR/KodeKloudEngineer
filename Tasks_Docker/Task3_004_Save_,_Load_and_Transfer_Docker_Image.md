@@ -39,7 +39,7 @@ c. Load that image archive on `App Server 3` with same name and tag which was us
    blog         datacenter   21c224f4062f   2 minutes ago   121MB
    ubuntu       latest       fec8bfd95b54   6 weeks ago     78.1MB
    ```
-3. Save the image in an archive file and then verify.
+3. Save the image in an archive file and then verify.   
    **`docker image save`** - Save one or more images to a tar archive (streamed to STDOUT by default)
    `-o`, --output - write to a file, instead of STDOUT
    ```bash
