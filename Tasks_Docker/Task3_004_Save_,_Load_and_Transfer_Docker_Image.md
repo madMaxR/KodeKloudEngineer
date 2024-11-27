@@ -65,6 +65,7 @@ c. Load that image archive on `App Server 3` with same name and tag which was us
    778f8f524562: Loading layer [==================================================>]  42.81MB/42.81MB
    Loaded image: blog:datacenter
    ```
+   
 10. ```bash
     [banner@stapp03 ~]$ docker images
     REPOSITORY   TAG          IMAGE ID       CREATED          SIZE
