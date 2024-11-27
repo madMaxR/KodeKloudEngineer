@@ -40,31 +40,32 @@ c. Load that image archive on `App Server 3` with same name and tag which was us
    ubuntu       latest       fec8bfd95b54   6 weeks ago     78.1MB
    ```
 3. Save the image in an archive file and then verify.
-   
+   **`docker image save`** - Save one or more images to a tar archive (streamed to STDOUT by default)
+   `-o`, --output - write to a file, instead of STDOUT
    ```bash
    [tony@stapp01 ~]$ docker save -o /tmp/blog.tar blog:datacenter
    ```
-4. ```bash
+5. ```bash
    [tony@stapp01 ~]$ ls -la /tmp/ | grep tar
    -rw------- 1 tony tony 123457024 Nov 27 16:35 blog.tar
    ```
-5. ```bash
+6. ```bash
    [tony@stapp01 ~]$ sudo scp /tmp/blog.tar banner@stapp03:/tmp
    banner@stapp03's password: 
    blog.tar                       100%  118MB 141.5MB/s   00:00
    ```
-6. ssh stapp03
-7. ```bash
+7. ssh stapp03
+8. ```bash
    [banner@stapp03 ~]$ ls -la /tmp/ | grep tar
    -rw------- 1 banner banner 123457024 Nov 27 16:38 blog.tar
    ```
-8. ```bash
+9. ```bash
    [banner@stapp03 ~]$ docker load -i /tmp/blog.tar 
    27123a71e85e: Loading layer [==================================================>]  80.63MB/80.63MB
    778f8f524562: Loading layer [==================================================>]  42.81MB/42.81MB
    Loaded image: blog:datacenter
    ```
-9. ```bash
+10. ```bash
    [banner@stapp03 ~]$ docker images
    REPOSITORY   TAG          IMAGE ID       CREATED          SIZE
    blog         datacenter   21c224f4062f   10 minutes ago   121MB
