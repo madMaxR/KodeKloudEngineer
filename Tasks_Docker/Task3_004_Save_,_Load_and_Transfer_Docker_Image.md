@@ -41,7 +41,7 @@ c. Load that image archive on `App Server 3` with same name and tag which was us
    ```
 3. Save the image in an archive file and then verify.   
    **`docker image save`** - Save one or more images to a tar archive (streamed to STDOUT by default)  
-   `-o`, --output &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- write to a file, instead of STDOUT
+   `-o`, --output &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- write to a file, instead of STDOUT
    ```bash
    [tony@stapp01 ~]$ docker save -o /tmp/blog.tar blog:datacenter
    ```
