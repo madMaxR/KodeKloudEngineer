@@ -35,8 +35,8 @@ c. Make sure Apache service is up and running inside the container. Keep the con
    ```
    
    `docker container exec` - Execute a command in a running container          
-   -i (interactive) - опция указывает Docker держать стандартный ввод (stdin) открытым, для ввода команд.           
-   -t (tty) - эта опция подключает интерактивную оболочку с терминалом.               
+   `-i` (interactive) - опция указывает Docker держать стандартный ввод (stdin) открытым, для ввода команд.           
+   `-t` (tty) - эта опция подключает интерактивную оболочку с терминалом.               
    `/bin/bash` - запуск Bash-оболочки                
    
 3) ```bash
