@@ -67,7 +67,15 @@ For each task, a set of requirements are given. The documentations for the serve
 ✔️ Lab 002 - [Docker Volumes Mapping](./Tasks_Docker/Task3_002_Docker_Volumes_Mapping.md)             
 ✔️ Lab 003 - [Docker Ports Mapping](./Tasks_Docker/Task3_003_Docker_Ports_Mapping.md)                
 ✔️ Lab 004 - [Save, Load and Transfer Docker Image](./Tasks_Docker/Task3_004_Save_,_Load_and_Transfer_Docker_Image.md)   
-- [ ] Lab 005 - [Write a Docker Compose File](./Tasks_Docker/Task3_005_Write_a_Docker_Compose_File.md)
+✔️ Lab 005 - [Write a Docker Compose File](./Tasks_Docker/Task3_005_Write_a_Docker_Compose_File.md)  
+
+**Level 4**  
+
+- [ ] Lab 001 - Resolve Dockerfile Issues
+- [ ] Lab 002 - Resolve Docker Compose Issues
+- [ ] Lab 003 - Deploy an App on Docker Containers
+- [ ] Lab 004 - Docker Node App
+- [ ] Lab 005 - Docker Python App
 
 ----------------------------------------------
 
