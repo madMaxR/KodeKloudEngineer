@@ -92,9 +92,8 @@ d. Map container's `/usr/local/apache2/htdocs` volume with `/opt/itadmin` volume
    </ul>
    </body></html>
    ```
-9.
-**`docker inspect`** - Return low-level information on Docker objects
-**Usage:**	`docker inspect [OPTIONS] NAME|ID [NAME|ID...]`
+9. **`docker inspect`** - Return low-level information on Docker objects
+   **Usage:**	`docker inspect [OPTIONS] NAME|ID [NAME|ID...]`
    ```bash
    [root@stapp03 docker]# docker inspect httpd | grep -A 5 "\"Ports\":"
             "Ports": {
