@@ -101,10 +101,10 @@ c. Do not change base image, any other valid configuration within Dockerfile, or
   
    COPY ./index.html /usr/local/apache2/htdocs/
    ```
-6. a) Некорректный путь в командах `sed`
-   b) Отсутствие директории `certs`
-   c) Отсутствие директории `html`
-   d) Рекомендуется указать порт
+6. a) Некорректный путь в командах `sed`  
+   b) Отсутствие директории `certs`  
+   c) Отсутствие директории `html`  
+   d) Рекомендуется указать порт  
    
    ```bash
    [root@stapp02 docker]# vi Dockerfile 
