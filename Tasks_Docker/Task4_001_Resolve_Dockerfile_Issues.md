@@ -63,9 +63,9 @@ c. Do not change base image, any other valid configuration within Dockerfile, or
     => CACHED [3/8] RUN sed -i '/LoadModule\ ssl_module modules\/mod_ssl.so/s/^#//g' conf/httpd.conf                     0.0s
     => CACHED [4/8] RUN sed -i '/LoadModule\ socache_shmcb_module modules\/mod_socache_shmcb.so/s/^#//g' conf/httpd.con  0.0s
     => CACHED [5/8] RUN sed -i '/Include\ conf\/extra\/httpd-ssl.conf/s/^#//g' conf/httpd.conf                           0.0s
-    => **ERROR** [6/8] COPY /server.crt /usr/local/apache2/conf/server.crt                                                   0.0s
-    => **ERROR** [7/8] COPY /server.key /usr/local/apache2/conf/server.key                                                   0.0s
-    => **ERROR** [8/8] COPY ./index.html /usr/local/apache2/htdocs/                                                          0.0s
+    => ERROR [6/8] COPY /server.crt /usr/local/apache2/conf/server.crt                                                   0.0s
+    => ERROR [7/8] COPY /server.key /usr/local/apache2/conf/server.key                                                   0.0s
+    => ERROR [8/8] COPY ./index.html /usr/local/apache2/htdocs/                                                          0.0s
    ------
     > [6/8] COPY /server.crt /usr/local/apache2/conf/server.crt:
    ------
