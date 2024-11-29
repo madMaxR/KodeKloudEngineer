@@ -127,7 +127,7 @@ c. Do not change base image, any other valid configuration within Dockerfile, or
   
    EXPOSE 8080
    ```
-8. ```bash
+7. ```bash
    [root@stapp02 docker]# docker build -t dockerfile_img .
    [+] Building 12.3s (13/13) FINISHED                                                                         docker:default
     => [internal] load build definition from Dockerfile                                                                  0.0s
@@ -150,17 +150,16 @@ c. Do not change base image, any other valid configuration within Dockerfile, or
     => => writing image sha256:2973615c381ba9cfbd9d3058ab1116d8605b7382be7a3237448af4243ab4abf7                          0.0s
     => => naming to docker.io/library/dockerfile_img
    ```
-9. ```bash
+8. ```bash
    [root@stapp02 docker]# docker images
    REPOSITORY       TAG       IMAGE ID       CREATED              SIZE
    dockerfile_img   latest    2973615c381b   About a minute ago   166MB
    ```
-10. 
-   ```bash
+9. ```bash
    [root@stapp02 docker]# docker run -d -p 8080:8080 dockerfile_img
    323444664fae33b48df3d524dbe5c813d0e7de8e909c973c28ffedbef239a05a
    ```
-11. ```bash
+10. ```bash
     [root@stapp02 docker]# curl localhost:8080
     This Dockerfile works!
     ```
