@@ -71,7 +71,7 @@ For each task, a set of requirements are given. The documentations for the serve
 
 **Level 4**  
 
-- [ ] Lab 001 - Resolve Dockerfile Issues
+✔️ Lab 001 - Resolve Dockerfile Issues
 - [ ] Lab 002 - Resolve Docker Compose Issues
 - [ ] Lab 003 - Deploy an App on Docker Containers
 - [ ] Lab 004 - Docker Node App
