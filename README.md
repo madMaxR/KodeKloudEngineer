@@ -71,8 +71,8 @@ For each task, a set of requirements are given. The documentations for the serve
 
 **Level 4**  
 
-✔️ Lab 001 - [Resolve Dockerfile Issues](./Tasks_Docker/Task4_001_Resolve_Dockerfile_Issues.md)
-✔️ Lab 002 - [Resolve Docker Compose Issues](./Tasks_Docker/Task4_002_Resolve_Docker_Compose_Issues.md)
+✔️ Lab 001 - [Resolve Dockerfile Issues](./Tasks_Docker/Task4_001_Resolve_Dockerfile_Issues.md)  
+✔️ Lab 002 - [Resolve Docker Compose Issues](./Tasks_Docker/Task4_002_Resolve_Docker_Compose_Issues.md)  
 - [ ] Lab 003 - Deploy an App on Docker Containers
 - [ ] Lab 004 - Docker Node App
 - [ ] Lab 005 - Docker Python App
