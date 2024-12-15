@@ -21,7 +21,7 @@ The team wants to test the deployment on one of the app servers before going liv
 Below are the details of the task:
 
   1. On `App Server 1` in Stratos Datacenter create a docker compose file `/opt/sysops/docker-compose.yml` (should be named exactly).
-  2. The compose should deploy two services (web and DB), and each service should deploy a container as per details below:
+  2. The compose should deploy two services (web and DB), and each service should deploy a container as per details below:  
   For web service:  
     - Container name must be `php_host`.  
     - Use image `php` with any apache tag.  
