@@ -89,7 +89,7 @@ Note: Once you click on FINISH button, all currently running/stopped containers 
          MYSQL_USER: custom_user
          MYSQL_PASSWORD: ComplexPassword123
          MYSQL_ROOT_PASSWORD: RootPassword123
-   ```yaml
+   ```
 5. ```bash
     [root@stapp01 sysops]# docker compose up -d
     [+] Running 24/24
