@@ -65,7 +65,9 @@ Note: Once you click on FINISH button, all currently running/stopped containers 
    ```
 4. ```bash
    [root@stapp01 ~]# vi docker-compose.yml
-   [root@stapp01 ~]# cat docker-compose.yml 
+   [root@stapp01 ~]# cat docker-compose.yml
+   ```
+   ```yaml
    services:
      web:
        container_name: php_host
@@ -87,7 +89,7 @@ Note: Once you click on FINISH button, all currently running/stopped containers 
          MYSQL_USER: custom_user
          MYSQL_PASSWORD: ComplexPassword123
          MYSQL_ROOT_PASSWORD: RootPassword123
-   ```
+   ```yaml
 5. ```bash
     [root@stapp01 sysops]# docker compose up -d
     [+] Running 24/24
