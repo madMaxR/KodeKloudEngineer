@@ -25,25 +25,25 @@ Below are the details of the task:
 
     For web service:
 
-    a. Container name must be `php_host`.
+    - Container name must be `php_host`.
 
-    b. Use image `php` with any apache tag.
+    - Use image `php` with any apache tag.
     
-    c. Map `php_host` container's port 80 with host port 5003
+    - Map `php_host` container's port 80 with host port 5003
     
-    d. Map `php_host` container's `/var/www/html` volume with host volume `/var/www/html`.
+    - Map `php_host` container's `/var/www/html` volume with host volume `/var/www/html`.
     
     For DB service:
     
-    a. Container name must be `mysql_host`.
+    - Container name must be `mysql_host`.
     
-    b. Use image `mariadb` with any tag (preferably latest).
+    - Use image `mariadb` with any tag (preferably latest).
     
-    c. Map `mysql_host` container's port 3306 with host port 3306
+    - Map `mysql_host` container's port 3306 with host port 3306
     
-    d. Map `mysql_host` container's `/var/lib/mysql` volume with host volume `/var/lib/mysql`.
+    - Map `mysql_host` container's `/var/lib/mysql` volume with host volume `/var/lib/mysql`.
     
-    e. Set `MYSQL_DATABASE=database_host` and use any custom user ( except root ) with some complex password for DB connections.
+    - Set `MYSQL_DATABASE=database_host` and use any custom user ( except root ) with some complex password for DB connections.
 
   3. After running `docker-compose up` you can access the app with curl command `curl <server-ip or hostname>:5003/`
 
