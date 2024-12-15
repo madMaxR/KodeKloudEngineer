@@ -23,7 +23,7 @@ Below are the details of the task:
   1. On `App Server 1` in Stratos Datacenter create a docker compose file `/opt/sysops/docker-compose.yml` (should be named exactly).
   2. The compose should deploy two services (web and DB), and each service should deploy a container as per details below:
 
-  For web service:
+    For web service:
 
     a. Container name must be `php_host`.
 
@@ -33,7 +33,7 @@ Below are the details of the task:
     
     d. Map `php_host` container's `/var/www/html` volume with host volume `/var/www/html`.
     
-  For DB service:
+    For DB service:
     
     a. Container name must be `mysql_host`.
     
