@@ -110,7 +110,7 @@ Note: Once you click on FINISH button, all currently running/stopped containers 
      ✔ Network sysops_default  Created                                                                                    0.1s 
      ✔ Container php_host      Started                                                                                   20.1s 
      ✔ Container mysql_host    Started
-  ```
+   ```
 6. ```bash
    [root@stapp01 sysops]# curl localhost:5003/
    <html>
