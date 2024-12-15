@@ -114,10 +114,10 @@ Note: Once you click on FINISH button, all currently running/stopped containers 
 6. ```bash
    [root@stapp01 sysops]# curl localhost:5003/
    <html>
-    <head>
+     <head>
         <title>Welcome to xFusionCorp Industries!</title>
     </head>
-
+   
     <body>
         Welcome to xFusionCorp Industries!    </body>  
    ```
