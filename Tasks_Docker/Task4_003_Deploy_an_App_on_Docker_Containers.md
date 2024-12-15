@@ -26,8 +26,7 @@ Below are the details of the task:
     - Container name must be `php_host`.  
     - Use image `php` with any apache tag.  
     - Map `php_host` container's port 80 with host port 5003.   
-    - Map `php_host` container's `/var/www/html` volume with host volume `/var/www/html`.  
-    
+    - Map `php_host` container's `/var/www/html` volume with host volume `/var/www/html`.   
   For DB service:  
     - Container name must be `mysql_host`.  
     - Use image `mariadb` with any tag (preferably latest).  
