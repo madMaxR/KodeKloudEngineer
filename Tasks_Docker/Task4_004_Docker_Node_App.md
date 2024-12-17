@@ -94,7 +94,7 @@ curl http://localhost:8098
    docker pull node:23
    ```
    or
-   ```bash
+   ```dockerfile
    FROM node:23
    WORKDIR /node_app
    COPY package.json ./
