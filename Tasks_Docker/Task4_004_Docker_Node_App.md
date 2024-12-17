@@ -36,7 +36,9 @@ describes the app dependencies and `server.js` file that defines a web app frame
 4. Map the container port `8083` with the host port `8098`.
 
 Once deployed, you can test the app using a `curl` command on `App Server 2`:  
-`curl http://localhost:8098`
+```bash
+curl http://localhost:8098
+```
 
 ------------------------------
 
