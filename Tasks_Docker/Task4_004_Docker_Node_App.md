@@ -15,9 +15,9 @@ Finished: &nbsp;&nbsp;2024-12-17 19:56:00
 
 ## Requirements
 
-There is a requirement to Dockerize a Node app and to deploy the same on `App Server 2`.
-Under `/node_app` directory on `App Server 2`, we have already placed a `package.json` file that 
-describes the app dependencies and `server.js` file that defines a web app framework.
+There is a requirement to Dockerize a Node app and to deploy the same on `App Server 2`.  
+Under `/node_app` directory on `App Server 2`, we have already placed a `package.json` file that   
+describes the app dependencies and `server.js` file that defines a web app framework.  
 
 Create a `Dockerfile` (name is case sensitive) under `/node_app` directory:
 
