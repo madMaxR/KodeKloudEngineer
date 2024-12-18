@@ -45,13 +45,13 @@ For each task, a set of requirements are given. The documentations for the serve
 
 ### End Docker
 
-Повторил некоторые команды `docker`, решил несколько проблем с контейнерами, запустил контейнеры с Node app и Python app.
+Повторил некоторые команды `docker`, решил несколько проблем с контейнерами, запустил контейнеры с `Node app` и `Python app`.
  
 `+` docker network  
 `+` docker Volumes and Ports Mapping   
-`+` docker compose 
-`+` docker Node App Deploy
-`+` docker Python App Deploy
+`+` docker compose  
+`+` docker Node App Deploy  
+`+` docker Python App Deploy  
      
 </details>
 
