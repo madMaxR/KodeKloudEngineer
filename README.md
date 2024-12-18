@@ -41,6 +41,20 @@ For each task, a set of requirements are given. The documentations for the serve
 
 </details>
 
+<details><summary> [2024-Dec-18] - End Docker  </summary>
+
+### End Docker
+
+Повторил некоторые команды `docker`, решил несколько проблем с контейнерами, запустил контейнеры с Node app и Python app.
+ 
+`+` docker network  
+`+` docker Volumes and Ports Mapping   
+`+` docker compose 
+`+` docker Node App Deploy
+`+` docker Python App Deploy
+     
+</details>
+
 ## Labs - Per Category 
 
 ### Docker 
