@@ -58,6 +58,8 @@ curl http://localhost:8098
    [root@stapp02 node_app]# vi Dockerfile   
    [root@stapp02 node_app]# cat Dockerfile
    ```
+   `RUN npm install` - используется для установки всех зависимостей, которые указаны в файле `package.json` вашего `Node.js` приложения.
+   Это один из ключевых шагов при создании контейнера, чтобы приложение могло правильно работать.
    ```dockerfile
    FROM node:latest
    WORKDIR /node_app
@@ -67,7 +69,7 @@ curl http://localhost:8098
    EXPOSE 8083
    CMD ["node", "server.js"]
    ```
-5. ```bash
+6. ```bash
    [root@stapp02 node_app]# docker build -t nautilus/node-web-app /node_app
    [+] Building 61.0s (2/2) FINISHED                                                                           docker:default
     => [internal] load build definition from Dockerfile                                                                  0.0s
@@ -89,7 +91,7 @@ curl http://localhost:8098
    0b50ca11d81b5ed2622ff8770f040cdd4bd93a2561208c01c0c5db98bd65d551?ns=docker.io":  
    dial tcp 10.0.0.6:443: i/o timeout
    ```
-6. Pull the image manually or try a different base image:
+7. Pull the image manually or try a different base image:
    ```bash
    docker pull node:23
    ```
@@ -103,7 +105,7 @@ curl http://localhost:8098
    EXPOSE 8083
    CMD ["node", "server.js"]
    ```
-7. ```bash
+8. ```bash
    [root@stapp02 node_app]# docker build -t nautilus/node-web-app /node_app
    [+] Building 402.3s (10/10) FINISHED                                                                        docker:default
     => [internal] load build definition from Dockerfile                                                                  0.0s
@@ -143,15 +145,15 @@ curl http://localhost:8098
     => => writing image sha256:4596f0183b74ad570f7ef78aa01a183b3203cdddb815296f5e5d2f58b4388fc6                          0.0s 
     => => naming to docker.io/nautilus/node-web-app 
    ```
-8. ```bash
+9. ```bash
    [root@stapp02 node_app]# docker run -d --name nodeapp_nautilus -p 8098:8083 nautilus/node-web-app
    5c5792575303d974ac207bb7c385650eeee02bd20c3ba20a1235ec5a4aebbb9f
    ```
-9. ```bash
+10. ```bash
    [root@stapp02 node_app]# curl http://localhost:8098
    Welcome to xFusionCorp Industries!
    ```
-10. Tests:
+11. Tests:
     ```bash
     [root@stapp02 node_app]# docker images
     REPOSITORY              TAG       IMAGE ID       CREATED         SIZE
