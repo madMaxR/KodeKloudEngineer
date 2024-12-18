@@ -5,7 +5,6 @@
 ----------------------------------------------
 
 - [Updates](#updates)
-    - [First steps](#first-steps)
 - [Labs - Per Category](#labs---per-category)
     - [Docker](#docker)
     - [Kubernetes](#kubernetes)
