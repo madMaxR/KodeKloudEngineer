@@ -41,7 +41,7 @@ For each task, a set of requirements are given. The documentations for the serve
 
 </details>
 
-<details><summary> [2024-Dec-18] - End Docker  </summary>
+<details><summary> [2024-Dec-18]  - End Docker  </summary>
 
 ### End Docker
 
