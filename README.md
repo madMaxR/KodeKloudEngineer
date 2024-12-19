@@ -96,7 +96,7 @@ For each task, a set of requirements are given. The documentations for the serve
 
 **Level 1** 
 
-- [ ] Lab 001 - Deploy Pods in Kubernetes Cluster
+✔️ Lab 001 - Deploy Pods in Kubernetes Cluster
 - [ ] Lab 002 - Deploy Applications with Kubernetes Deployments
 - [ ] Lab 003 - Setup Kubernetes Namespaces and PODs
 - [ ] Lab 004 - Set Resource Limits in Kubernetes Pods
