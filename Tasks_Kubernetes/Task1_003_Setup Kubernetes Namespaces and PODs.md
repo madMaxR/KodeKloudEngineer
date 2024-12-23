@@ -50,6 +50,7 @@ thor@jumphost ~$ kubectl apply -f .
 namespace/dev created
 pod/dev-nginx-pod created
 ```
+2)
 ```bash
 thor@jumphost ~$ kubectl get ns
 NAME                 STATUS   AGE
