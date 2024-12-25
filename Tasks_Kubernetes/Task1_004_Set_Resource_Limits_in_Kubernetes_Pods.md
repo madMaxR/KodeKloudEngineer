@@ -31,10 +31,13 @@ Set the following resource limits:
 
 ## Steps
 
+1)
 ```bash
 thor@jumphost ~$ touch pod.yml
 thor@jumphost ~$ vi pod.yml 
-thor@jumphost ~$ cat pod.yml 
+thor@jumphost ~$ cat pod.yml
+```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -50,6 +53,9 @@ spec:
       limits:
         memory: "20Mi"
         cpu: "100m"
+```
+2)
+```
 thor@jumphost ~$ kubectl apply -f pod.yml
 pod/httpd-pod created
 thor@jumphost ~$ kubectl get pods
